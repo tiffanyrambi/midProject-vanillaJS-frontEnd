@@ -1,0 +1,32 @@
+#collapseExample {
+    display: none;
+}
+
+#version {
+    background-color: green;
+    color: white;
+    padding: 0 6px;
+}
+
+#alpha {
+    background-color: orangered;
+    color: white;
+    padding: 0 6px;
+}
+
+/* button delete */
+.action_container {
+    display: inline-flex;
+}
+
+.action_container>* {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
